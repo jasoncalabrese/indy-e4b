@@ -1,5 +1,24 @@
 [
   {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-06-13T21:01:48 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-06-13T21:01:48", 
+    "_body": "c23647", 
+    "_head": "3f06", 
+    "amount": 52, 
+    "_date": "7081956d10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-06-13T21:01:48 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-06-13T21:01:48", 
+    "_body": "", 
+    "_head": "0a34", 
+    "amount": 52, 
+    "_date": "7081356d10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-06-13T20:46:36 head[2], body[0] op[0x16]", 
@@ -603,55 +622,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "51830f4d10"
-  }, 
-  {
-    "programmed": 0.75, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-06-13T14:48:32 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-06-13T14:48:32", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 1.0, 
-            "age": 90
-          }, 
-          {
-            "amount": 1.0, 
-            "age": 320
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c08285ac02840d0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "01001e001e001200", 
-    "amount": 0.75, 
-    "unabsorbed": 0.45, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "60b02e0d10"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 160, 
-    "_description": "BolusWizard 2016-06-13T14:48:32 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-06-13T14:48:32", 
-    "_body": "125000b450730000280000000028a0", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "60b00e0d10", 
-    "bolus_estimate": 1.0, 
-    "bg_target_low": 115, 
-    "carb_ratio": 18.0, 
-    "food_estimate": 1.0, 
-    "carb_input": 18, 
-    "sensitivity": 80
   }
 ]
