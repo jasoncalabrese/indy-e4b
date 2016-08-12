@@ -7,96 +7,101 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-12T09:35:22.000Z", 
+      "timestamp": "2016-08-12T09:42:20.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 94.775, 
-    "clock": "2016-08-12T02:35:13-07:00"
+    "reservoir": 94.725, 
+    "clock": "2016-08-12T02:42:11-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 152, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 92, 
-      "timestamp": "2016-08-12T09:37:29.000Z", 
-      "rate": 0.45, 
-      "reason": "COB: 0, Dev: -5, BGI: -3.61, ISF: 96.4, Target: 80; Eventual BG 92 > 80 but Min. Delta -4.50 < Exp. Delta -4.3; setting current basal of 0.45 as temp", 
+      "snoozeBG": 134, 
+      "timestamp": "2016-08-12T09:43:43.000Z", 
+      "rate": 1.45, 
+      "reason": "COB: 0, Dev: 17, BGI: -3.47, ISF: 95.2, Target: 80; Eventual BG 134 >= 80, temp 0.45<1.45U/hr", 
       "COB": 0, 
-      "eventualBG": 92, 
+      "eventualBG": 134, 
       "duration": 30, 
-      "tick": "+7", 
-      "IOB": 0.568
+      "tick": "+9", 
+      "IOB": 0.467
     }, 
     "iob": {
-      "netbasalinsulin": 1.25, 
-      "timestamp": "2016-08-12T09:35:13.000Z", 
-      "activity": 0.0075, 
-      "basaliob": 0.568, 
+      "netbasalinsulin": 1.2, 
+      "timestamp": "2016-08-12T09:42:11.000Z", 
+      "activity": 0.0073, 
+      "basaliob": 0.467, 
       "hightempinsulin": 1.5, 
       "bolussnooze": 0, 
-      "iob": 0.568
+      "iob": 0.467
     }, 
     "enacted": {
-      "bg": 152, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 92, 
+      "snoozeBG": 134, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          152, 
-          148, 
-          143, 
-          139, 
+          161, 
+          160, 
+          159, 
+          158, 
+          156, 
+          155, 
+          153, 
+          151, 
+          149, 
+          146, 
+          144, 
+          142, 
+          140, 
+          138, 
+          136, 
           135, 
+          133, 
+          132, 
+          132, 
           131, 
+          130, 
+          130, 
+          129, 
+          129, 
           128, 
-          124, 
-          121, 
-          117, 
-          114, 
-          111, 
-          109, 
-          107, 
-          106, 
-          104, 
-          103, 
-          102, 
-          102, 
-          101, 
-          101, 
-          101, 
-          101, 
-          100, 
-          100, 
-          100, 
-          101, 
-          101, 
-          101, 
-          101, 
-          102, 
-          102, 
-          102, 
-          102, 
-          103
+          128, 
+          128, 
+          128, 
+          128, 
+          128, 
+          128, 
+          128, 
+          128, 
+          128, 
+          129
         ]
       }, 
-      "reason": "COB: 0, Dev: -5, BGI: -3.61, ISF: 96.4, Target: 80; Eventual BG 92 > 80 but Min. Delta -4.50 < Exp. Delta -4.3; setting current basal of 0.45 as temp", 
-      "rate": 0.45, 
+      "reason": "COB: 0, Dev: 17, BGI: -3.47, ISF: 95.2, Target: 80; Eventual BG 134 >= 80, temp 0.45<1.45U/hr", 
+      "rate": 1.425, 
       "COB": 0, 
-      "eventualBG": 92, 
-      "timestamp": "2016-08-12T09:37:51.000Z", 
+      "eventualBG": 134, 
+      "timestamp": "2016-08-12T09:43:56.000Z", 
       "duration": 30, 
-      "tick": "+7", 
-      "IOB": 0.568
+      "tick": "+9", 
+      "IOB": 0.467
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        3, 
+        -92
+      ], 
+      [
         "916.564", 
-        5, 
-        -77
+        4, 
+        -82
       ], 
       [
         "916.588", 
@@ -116,21 +121,16 @@
       [
         "916.660", 
         5, 
-        -74
+        -75
       ], 
       [
         "916.684", 
         5, 
-        -77
-      ], 
-      [
-        "916.708", 
-        1, 
-        -97
+        -76
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-08-12T09:35:02.000Z", 
+    "timestamp": "2016-08-12T09:41:57.000Z", 
     "usedDefault": false
   }
 }
