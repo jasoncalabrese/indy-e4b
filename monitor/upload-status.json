@@ -7,26 +7,74 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-14T07:57:46.000Z", 
+      "timestamp": "2016-08-14T08:02:02.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 117.025, 
-    "clock": "2016-08-14T00:57:37-07:00"
+    "reservoir": 117, 
+    "clock": "2016-08-14T01:01:42-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-08-14T07:58:57.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Aug 14 2016 00:44:49 GMT-0700 (PDT) but your system time is Sun Aug 14 2016 00:58:57 GMT-0700 (PDT)"
+      "bg": 170, 
+      "temp": "absolute", 
+      "snoozeBG": 54, 
+      "timestamp": "2016-08-14T08:04:03.000Z", 
+      "predBGs": {
+        "IOB": [
+          170, 
+          161, 
+          153, 
+          144, 
+          136, 
+          128, 
+          120, 
+          113, 
+          106, 
+          100, 
+          95, 
+          90, 
+          85, 
+          81, 
+          78, 
+          76, 
+          74, 
+          72, 
+          71, 
+          71, 
+          70, 
+          70, 
+          70, 
+          71, 
+          71, 
+          72, 
+          72, 
+          73, 
+          73, 
+          74, 
+          75, 
+          75, 
+          76, 
+          76, 
+          77, 
+          77, 
+          78
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -12, BGI: -6.95, ISF: 100, Target: 129; Eventual BG 54 < 129, setting -2.5U/hr, but 30m left and 0 ~ req 0U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 54, 
+      "tick": "+6", 
+      "IOB": 1.043
     }, 
     "iob": {
-      "netbasalinsulin": 1.35, 
-      "timestamp": "2016-08-14T07:57:37.000Z", 
-      "activity": 0.0131, 
-      "basaliob": 0.955, 
-      "hightempinsulin": 1.8, 
+      "netbasalinsulin": 1.5, 
+      "timestamp": "2016-08-14T08:01:42.000Z", 
+      "activity": 0.0139, 
+      "basaliob": 1.043, 
+      "hightempinsulin": 1.9, 
       "bolussnooze": 0, 
-      "iob": 0.955
+      "iob": 1.043
     }, 
     "enacted": {
       "bg": 201, 
@@ -46,14 +94,9 @@
   "mmtune": {
     "scanDetails": [
       [
-        "916.540", 
-        3, 
-        -92
-      ], 
-      [
         "916.564", 
         5, 
-        -76
+        -77
       ], 
       [
         "916.588", 
@@ -63,7 +106,7 @@
       [
         "916.612", 
         5, 
-        -73
+        -74
       ], 
       [
         "916.636", 
@@ -78,11 +121,11 @@
       [
         "916.684", 
         5, 
-        -77
+        -76
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-08-14T07:57:26.000Z", 
+    "timestamp": "2016-08-14T08:01:30.000Z", 
     "usedDefault": false
   }
 }
