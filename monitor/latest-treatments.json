@@ -1,14 +1,24 @@
 {
-  "_id": "57b2913165110bbfc193cc8e",
-  "_type": "Battery",
-  "_description": "Battery 2016-08-15T21:05:09 head[2], body[0] op[0x1a]",
-  "timestamp": "2016-08-15T21:05:09-07:00",
-  "_body": "",
-  "_head": "1a01",
-  "_date": "8905150f10",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Battery",
-  "created_at": "2016-08-15T21:05:09-07:00",
-  "enteredBy": "openaps://medtronic/723",
-  "eventType": "Note",
-  "notes": "Battery 723 "
+  "_id": "57b2941465110bbfc193cc96",
+  "duration": 0,
+  "bolus": {
+    "programmed": 0.3,
+    "_type": "Bolus",
+    "_description": "Bolus 2016-08-15T21:17:35 head[8], body[0] op[0x01]",
+    "timestamp": "2016-08-15T21:17:35-07:00",
+    "_body": "",
+    "_head": "01000c000c001000",
+    "amount": 0.3,
+    "unabsorbed": 0.4,
+    "duration": 0,
+    "type": "normal",
+    "_date": "a311356f10"
+  },
+  "timestamp": "2016-08-15T21:17:35-07:00",
+  "created_at": "2016-08-15T21:17:35-07:00",
+  "eventType": "Correction Bolus",
+  "insulin": 0.3,
+  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.3\nDelivered bolus 0.3\nPercent delivered:  100%",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+  "enteredBy": "openaps://medtronic/723"
 }
