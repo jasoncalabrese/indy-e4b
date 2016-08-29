@@ -7,78 +7,80 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-29T08:17:41.000Z", 
+      "timestamp": "2016-08-29T08:24:15.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 117.875, 
-    "clock": "2016-08-29T01:17:38-07:00"
+    "clock": "2016-08-29T01:24:12-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 180, 
+      "bg": 172, 
       "temp": "absolute", 
-      "snoozeBG": 52, 
-      "timestamp": "2016-08-29T08:19:06.000Z", 
-      "rate": 0, 
-      "reason": "COB: 0, Dev: -30, BGI: -5.59, ISF: 91, Target: 80; Eventual BG 52 < 80, setting -0.575U/hr", 
+      "snoozeBG": 61, 
+      "timestamp": "2016-08-29T08:26:18.000Z", 
+      "predBGs": {
+        "IOB": [
+          172, 
+          163, 
+          154, 
+          146, 
+          137, 
+          130, 
+          122, 
+          116, 
+          109, 
+          104, 
+          99, 
+          94, 
+          91, 
+          88, 
+          85, 
+          83, 
+          81, 
+          79, 
+          78, 
+          77, 
+          76, 
+          76, 
+          76, 
+          75, 
+          75, 
+          76, 
+          76, 
+          76, 
+          76, 
+          77, 
+          77, 
+          78, 
+          78, 
+          79, 
+          79, 
+          79, 
+          80
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -21, BGI: -5.82, ISF: 91, Target: 80; Eventual BG 61 < 80, setting -0.175U/hr, but 25m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 52, 
-      "duration": 30, 
-      "tick": -13, 
-      "IOB": 1.073
+      "eventualBG": 61, 
+      "tick": -8, 
+      "IOB": 0.989
     }, 
     "iob": {
-      "netbasalinsulin": 1.8, 
-      "timestamp": "2016-08-29T08:17:38.000Z", 
-      "activity": 0.0123, 
-      "basaliob": 1.073, 
+      "netbasalinsulin": 1.9, 
+      "timestamp": "2016-08-29T08:24:12.000Z", 
+      "activity": 0.0128, 
+      "basaliob": 0.989, 
       "hightempinsulin": 2, 
       "bolussnooze": 0, 
-      "iob": 1.073
+      "iob": 0.989
     }, 
     "enacted": {
       "bg": 180, 
       "temp": "absolute", 
       "snoozeBG": 52, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          180, 
-          168, 
-          156, 
-          144, 
-          133, 
-          123, 
-          114, 
-          105, 
-          97, 
-          90, 
-          83, 
-          78, 
-          73, 
-          69, 
-          65, 
-          61, 
-          58, 
-          55, 
-          53, 
-          51, 
-          49, 
-          47, 
-          45, 
-          44, 
-          43, 
-          42, 
-          42, 
-          41, 
-          41, 
-          41, 
-          40, 
-          40, 
-          41
-        ]
-      }, 
       "reason": "COB: 0, Dev: -30, BGI: -5.59, ISF: 91, Target: 80; Eventual BG 52 < 80, setting -0.575U/hr", 
       "rate": 0, 
       "COB": 0, 
@@ -92,38 +94,43 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        1, 
+        -98
+      ], 
+      [
         "916.564", 
         5, 
-        -93
+        -83
       ], 
       [
         "916.588", 
         5, 
-        -92
+        -81
       ], 
       [
         "916.612", 
         5, 
-        -91
+        -81
       ], 
       [
         "916.636", 
         5, 
-        -91
+        -81
       ], 
       [
         "916.660", 
         5, 
-        -92
+        -81
       ], 
       [
         "916.684", 
         5, 
-        -96
+        -84
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2016-08-29T08:17:22.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-08-29T08:23:55.000Z", 
     "usedDefault": false
   }
 }
