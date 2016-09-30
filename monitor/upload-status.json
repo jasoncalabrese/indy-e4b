@@ -7,125 +7,131 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-30T09:18:05.000Z", 
+      "timestamp": "2016-09-30T09:21:26.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 111.175, 
-    "clock": "2016-09-30T02:18:13-07:00"
+    "reservoir": 111.15, 
+    "clock": "2016-09-30T02:21:34-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 141, 
+      "bg": 139, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
-      "timestamp": "2016-09-30T09:19:45.000Z", 
-      "predBGs": {
-        "IOB": [
-          141, 
-          141, 
-          141, 
-          140, 
-          140, 
-          139, 
-          139, 
-          138, 
-          137, 
-          136, 
-          135, 
-          134, 
-          133, 
-          133, 
-          132, 
-          131, 
-          130, 
-          129, 
-          128, 
-          127, 
-          127, 
-          126, 
-          125, 
-          125, 
-          124, 
-          123, 
-          123, 
-          122, 
-          122, 
-          122, 
-          121, 
-          121, 
-          121, 
-          121, 
-          121, 
-          120
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 4, BGI: -0.72, ISF: 90, Target: 115; Eventual BG 135 >= 115, temp 0.875<1U/hr, but 30m left and 0.875 ~ req 1U/hr: no action required", 
+      "snoozeBG": 124, 
+      "timestamp": "2016-09-30T09:22:54.000Z", 
+      "rate": 0.55, 
+      "reason": "COB: 0, Dev: -1, BGI: -0.76, ISF: 90, Target: 115; Eventual BG 124 > 115 but Min. Delta -2.00 < Exp. Delta -1.3; setting current basal of 0.55 as temp. Setting neutral temp basal of 0.55U/hr", 
       "COB": 0, 
-      "eventualBG": 135, 
-      "tick": "+0", 
-      "IOB": 0.116
+      "eventualBG": 124, 
+      "duration": 30, 
+      "tick": -2, 
+      "IOB": 0.16
     }, 
     "iob": {
       "netbasalinsulin": 0.1, 
-      "timestamp": "2016-09-30T09:18:13.000Z", 
-      "activity": 0.0016, 
-      "basaliob": 0.116, 
+      "timestamp": "2016-09-30T09:21:34.000Z", 
+      "activity": 0.0017, 
+      "basaliob": 0.16, 
       "hightempinsulin": 0.55, 
       "bolussnooze": 0, 
-      "iob": 0.116
+      "iob": 0.16
+    }, 
+    "enacted": {
+      "bg": 139, 
+      "temp": "absolute", 
+      "snoozeBG": 124, 
+      "recieved": true, 
+      "predBGs": {
+        "IOB": [
+          139, 
+          137, 
+          135, 
+          133, 
+          132, 
+          130, 
+          128, 
+          127, 
+          125, 
+          124, 
+          123, 
+          122, 
+          121, 
+          120, 
+          119, 
+          119, 
+          118, 
+          117, 
+          116, 
+          115, 
+          114, 
+          113, 
+          113, 
+          112, 
+          112, 
+          111, 
+          111, 
+          110, 
+          110, 
+          110, 
+          109, 
+          109, 
+          109, 
+          109, 
+          109, 
+          108
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -1, BGI: -0.76, ISF: 90, Target: 115; Eventual BG 124 > 115 but Min. Delta -2.00 < Exp. Delta -1.3; setting current basal of 0.55 as temp. Setting neutral temp basal of 0.55U/hr", 
+      "rate": 0.55, 
+      "COB": 0, 
+      "eventualBG": 124, 
+      "timestamp": "2016-09-30T09:23:06.000Z", 
+      "duration": 30, 
+      "tick": -2, 
+      "IOB": 0.16
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.468", 
-        1, 
-        -97
+        "916.540", 
+        4, 
+        -91
       ], 
       [
-        "916.492", 
-        1, 
-        -96
+        "916.564", 
+        5, 
+        -81
       ], 
       [
         "916.588", 
-        3, 
-        -77
+        5, 
+        -80
       ], 
       [
         "916.612", 
         5, 
-        -55
+        -79
       ], 
       [
         "916.636", 
-        1, 
-        -90
+        5, 
+        -79
       ], 
       [
         "916.660", 
-        3, 
-        -88
+        5, 
+        -80
       ], 
       [
         "916.684", 
         5, 
-        -84
-      ], 
-      [
-        "916.708", 
-        2, 
-        -81
-      ], 
-      [
-        "916.732", 
-        1, 
-        -91
+        -83
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-09-30T09:17:45.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-09-30T09:21:06.000Z", 
     "usedDefault": false
   }
 }
