@@ -7,84 +7,81 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-20T11:38:33.000Z", 
+      "timestamp": "2016-10-20T11:45:04.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 91.6, 
-    "clock": "2016-10-20T04:38:49-07:00"
+    "reservoir": 91.55, 
+    "clock": "2016-10-20T04:45:19-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 109, 
+      "bg": 102, 
       "temp": "absolute", 
-      "snoozeBG": 110, 
-      "timestamp": "2016-10-20T11:40:43.000Z", 
-      "predBGs": {
-        "IOB": [
-          109, 
-          108, 
-          107, 
-          106, 
-          105, 
-          104, 
-          104, 
-          103, 
-          103, 
-          103, 
-          103, 
-          103, 
-          103, 
-          104, 
-          104, 
-          105, 
-          105, 
-          106, 
-          106, 
-          106, 
-          107, 
-          107, 
-          108, 
-          108, 
-          109, 
-          109, 
-          109, 
-          110, 
-          110, 
-          110, 
-          110, 
-          110, 
-          111
-        ]
-      }, 
-      "reason": "COB: 0, Dev: -6, BGI: -0.17, ISF: 84, Target: 107; Eventual BG 110 > 107 but Min. Delta -1.13 < Exp. Delta -0.3, temp 0.525 ~ req 0.525U/hr", 
+      "snoozeBG": 89, 
+      "timestamp": "2016-10-20T11:46:59.000Z", 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -21, BGI: -0.17, ISF: 85, Target: 107; Eventual BG 89 < 107, setting -0.325U/hr", 
       "COB": 0, 
-      "eventualBG": 110, 
-      "tick": -1, 
-      "IOB": -0.089
+      "eventualBG": 89, 
+      "duration": 30, 
+      "tick": -5, 
+      "IOB": -0.091
     }, 
     "iob": {
       "netbasalinsulin": -0.2, 
-      "timestamp": "2016-10-20T11:38:49.000Z", 
+      "timestamp": "2016-10-20T11:45:19.000Z", 
       "activity": 0.0004, 
-      "basaliob": -0.089, 
+      "basaliob": -0.091, 
       "hightempinsulin": 0.3, 
       "bolussnooze": 0, 
-      "iob": -0.089
+      "iob": -0.091
     }, 
     "enacted": {
-      "bg": 116, 
+      "bg": 102, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
+      "snoozeBG": 89, 
       "recieved": true, 
-      "reason": "COB: 0, Dev: -4, BGI: 0.41, ISF: 83, Target: 106; Eventual BG 107 > 106 but Min. Delta -1.00 < Exp. Delta 0.4; setting current basal of 0.55 as temp", 
-      "rate": 0.55, 
+      "predBGs": {
+        "IOB": [
+          102, 
+          97, 
+          93, 
+          90, 
+          86, 
+          83, 
+          81, 
+          79, 
+          78, 
+          77, 
+          76, 
+          76, 
+          76, 
+          77, 
+          77, 
+          78, 
+          78, 
+          79, 
+          79, 
+          80, 
+          80, 
+          80, 
+          81, 
+          81, 
+          82, 
+          82, 
+          82, 
+          83
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -21, BGI: -0.17, ISF: 85, Target: 107; Eventual BG 89 < 107, setting -0.325U/hr", 
+      "rate": 0, 
       "COB": 0, 
-      "eventualBG": 107, 
-      "timestamp": "2016-10-20T11:07:53.000Z", 
+      "eventualBG": 89, 
+      "timestamp": "2016-10-20T11:47:34.000Z", 
       "duration": 30, 
-      "tick": -1, 
-      "IOB": 0.061
+      "tick": -5, 
+      "IOB": -0.091
     }
   }, 
   "mmtune": {
@@ -92,17 +89,17 @@
       [
         "916.540", 
         5, 
-        -88
+        -91
       ], 
       [
         "916.564", 
         5, 
-        -81
+        -76
       ], 
       [
         "916.588", 
-        5, 
-        -80
+        4, 
+        -84
       ], 
       [
         "916.612", 
@@ -112,12 +109,12 @@
       [
         "916.636", 
         5, 
-        -80
+        -81
       ], 
       [
         "916.660", 
         5, 
-        -79
+        -81
       ], 
       [
         "916.684", 
@@ -130,8 +127,8 @@
         -91
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-10-20T11:38:14.000Z", 
+    "setFreq": 916.564, 
+    "timestamp": "2016-10-20T11:44:43.000Z", 
     "usedDefault": false
   }
 }
