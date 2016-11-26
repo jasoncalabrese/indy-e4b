@@ -7,35 +7,76 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-11-26T09:08:27.000Z", 
+      "timestamp": "2016-11-26T09:15:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 45.65, 
-    "clock": "2016-11-26T01:08:12-08:00"
+    "reservoir": 45.475, 
+    "clock": "2016-11-26T01:15:17-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 247, 
+      "bg": 240, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2016-11-26T09:10:05.000Z", 
-      "rate": 1.05, 
-      "reason": "COB: 0, Dev: 26, BGI: -8.84, ISF: 77, Target: 80; Eventual BG 101 >= 80, 23m@1.350 = 0.517 > req 0.15+20%. Setting temp basal of 1.05U/hr", 
+      "snoozeBG": 81, 
+      "timestamp": "2016-11-26T09:17:24.000Z", 
+      "predBGs": {
+        "IOB": [
+          240, 
+          232, 
+          224, 
+          216, 
+          208, 
+          199, 
+          190, 
+          182, 
+          173, 
+          165, 
+          156, 
+          149, 
+          141, 
+          134, 
+          128, 
+          123, 
+          118, 
+          114, 
+          111, 
+          108, 
+          105, 
+          103, 
+          101, 
+          100, 
+          99, 
+          98, 
+          97, 
+          97, 
+          96, 
+          96, 
+          96, 
+          97, 
+          97, 
+          97, 
+          98, 
+          98, 
+          98, 
+          98, 
+          99
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 10, BGI: -9.21, ISF: 78, Target: 109; Eventual BG 81 < 109, Snooze BG 81, setting -0.65U/hr, but 30m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 101, 
-      "duration": 30, 
-      "tick": -4, 
-      "IOB": 2.239
+      "eventualBG": 81, 
+      "tick": -7, 
+      "IOB": 2.171
     }, 
     "iob": {
-      "netbasalinsulin": 3.6, 
-      "timestamp": "2016-11-26T09:08:12.000Z", 
-      "activity": 0.023, 
-      "basaliob": 2.239, 
-      "hightempinsulin": 3.9, 
+      "netbasalinsulin": 3.55, 
+      "timestamp": "2016-11-26T09:15:17.000Z", 
+      "activity": 0.0237, 
+      "basaliob": 2.171, 
+      "hightempinsulin": 3.85, 
       "bolussnooze": 0, 
-      "iob": 2.239
+      "iob": 2.171
     }, 
     "enacted": {
       "requested": {
@@ -47,51 +88,6 @@
       "temp": "absolute", 
       "snoozeBG": 101, 
       "timestamp": "2016-11-26T09:11:10.000Z", 
-      "predBGs": {
-        "IOB": [
-          247, 
-          242, 
-          237, 
-          231, 
-          224, 
-          217, 
-          209, 
-          201, 
-          192, 
-          183, 
-          173, 
-          163, 
-          154, 
-          144, 
-          135, 
-          126, 
-          118, 
-          110, 
-          102, 
-          96, 
-          89, 
-          84, 
-          78, 
-          74, 
-          69, 
-          66, 
-          62, 
-          59, 
-          57, 
-          55, 
-          53, 
-          52, 
-          50, 
-          50, 
-          49, 
-          48, 
-          48, 
-          48, 
-          48, 
-          48, 
-          47
-        ]
-      }, 
       "reason": "COB: 0, Dev: 26, BGI: -8.84, ISF: 77, Target: 80; Eventual BG 101 >= 80, 23m@1.350 = 0.517 > req 0.15+20%. Setting temp basal of 1.05U/hr", 
       "rate": 2.1, 
       "COB": 0, 
@@ -107,7 +103,7 @@
       [
         "916.540", 
         5, 
-        -76
+        -77
       ], 
       [
         "916.564", 
@@ -137,11 +133,11 @@
       [
         "916.684", 
         5, 
-        -83
+        -81
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-11-26T09:07:56.000Z", 
+    "timestamp": "2016-11-26T09:14:58.000Z", 
     "usedDefault": false
   }
 }
