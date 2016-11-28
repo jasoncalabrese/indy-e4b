@@ -1,5 +1,43 @@
 [
   {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2016-11-27T20:52:19 head[2], body[3] op[0x3f]", 
+    "timestamp": "2016-11-27T20:52:19", 
+    "_body": "c23647", 
+    "_head": "3f1c", 
+    "amount": 227, 
+    "_date": "93f4747b10"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-11-27T20:52:19 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-11-27T20:52:19", 
+    "_body": "", 
+    "_head": "0ae3", 
+    "amount": 227, 
+    "_date": "93f4347b10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-11-27T20:50:56 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-11-27T20:50:56", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b8f2145b10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-11-27T20:50:56 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-11-27T20:50:56", 
+    "_body": "00", 
+    "_head": "3382", 
+    "rate": 3.25, 
+    "_date": "b8f2145b10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-11-27T20:47:21 head[2], body[0] op[0x16]", 
@@ -928,37 +966,5 @@
     "_head": "7b06", 
     "rate": 0.65, 
     "_date": "9dcc0f1b10"
-  }, 
-  {
-    "programmed": 0.3, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-11-27T14:50:08 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-11-27T14:50:08", 
-    "_body": "", 
-    "_head": "01000c000c000a00", 
-    "amount": 0.3, 
-    "unabsorbed": 0.25, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "88f22e7b10"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2016-11-27T14:49:39 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-11-27T14:49:39", 
-    "_body": "c23647", 
-    "_head": "3f1a", 
-    "amount": 215, 
-    "_date": "a7f1ee7b10"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-11-27T14:49:39 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-11-27T14:49:39", 
-    "_body": "", 
-    "_head": "0ad7", 
-    "amount": 215, 
-    "_date": "a7f12e7b10"
   }
 ]
