@@ -3,79 +3,77 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.41
+      "voltage": 1.42
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-12-20T08:53:34.000Z", 
+      "timestamp": "2016-12-20T09:02:18.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 117.2, 
-    "clock": "2016-12-20T00:53:40-08:00"
+    "reservoir": 117.05, 
+    "clock": "2016-12-20T01:02:23-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 113, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 94, 
-      "timestamp": "2016-12-20T08:55:25.000Z", 
-      "rate": 1.05, 
-      "reason": "COB: 0, Dev: -2, BGI: -0.29, ISF: 82, Target: 80; Eventual BG 65 < 80, bolus snooze: eventual BG range 65-94; setting current basal of 1.05 as temp", 
+      "snoozeBG": 92, 
+      "timestamp": "2016-12-20T09:04:21.000Z", 
+      "predBGs": {
+        "IOB": [
+          112, 
+          112, 
+          111, 
+          110, 
+          108, 
+          107, 
+          105, 
+          103, 
+          101, 
+          98, 
+          96, 
+          93, 
+          91, 
+          89, 
+          86, 
+          84, 
+          82, 
+          79, 
+          77, 
+          75, 
+          73, 
+          72, 
+          70, 
+          69, 
+          68, 
+          67, 
+          66, 
+          65, 
+          65, 
+          64
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 2, BGI: -0.7, ISF: 82, Target: 80; Eventual BG 69 < 80, bolus snooze: eventual BG range 69-92; setting current basal of 0.975 as temp, but 23m left and 1.05 ~ req 0.975U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 65, 
-      "duration": 30, 
-      "tick": -1, 
-      "IOB": 0.564
+      "eventualBG": 69, 
+      "tick": "+0", 
+      "IOB": 0.553
     }, 
     "iob": {
-      "netbasalinsulin": -0.05, 
-      "timestamp": "2016-12-20T08:53:40.000Z", 
-      "activity": 0.0007, 
-      "basaliob": 0.27, 
+      "netbasalinsulin": 0.1, 
+      "timestamp": "2016-12-20T09:02:23.000Z", 
+      "activity": 0.0017, 
+      "basaliob": 0.278, 
       "hightempinsulin": 1, 
-      "bolussnooze": 0.233, 
-      "iob": 0.564
+      "bolussnooze": 0.184, 
+      "iob": 0.553
     }, 
     "enacted": {
       "bg": 113, 
       "temp": "absolute", 
       "snoozeBG": 94, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          113, 
-          112, 
-          111, 
-          110, 
-          108, 
-          106, 
-          104, 
-          102, 
-          100, 
-          97, 
-          95, 
-          92, 
-          90, 
-          87, 
-          85, 
-          83, 
-          81, 
-          79, 
-          77, 
-          75, 
-          73, 
-          71, 
-          69, 
-          68, 
-          67, 
-          66, 
-          65, 
-          64, 
-          64, 
-          63
-        ]
-      }, 
       "reason": "COB: 0, Dev: -2, BGI: -0.29, ISF: 82, Target: 80; Eventual BG 65 < 80, bolus snooze: eventual BG range 65-94; setting current basal of 1.05 as temp", 
       "rate": 1.05, 
       "COB": 0, 
@@ -116,16 +114,16 @@
       [
         "916.660", 
         5, 
-        -72
+        -73
       ], 
       [
         "916.684", 
         5, 
-        -77
+        -78
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-12-20T08:53:15.000Z", 
+    "timestamp": "2016-12-20T09:01:35.000Z", 
     "usedDefault": false
   }
 }
