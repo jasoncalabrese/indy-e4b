@@ -7,87 +7,93 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-01-22T08:29:31.000Z", 
+      "timestamp": "2017-01-22T08:37:49.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 36.375, 
-    "clock": "2017-01-22T00:29:50-08:00"
+    "reservoir": 36.075, 
+    "clock": "2017-01-22T00:38:08-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 209, 
+      "bg": 205, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
-      "timestamp": "2017-01-22T08:31:51.000Z", 
-      "predBGs": {
-        "IOB": [
-          209, 
-          209, 
-          208, 
-          207, 
-          205, 
-          202, 
-          199, 
-          195, 
-          191, 
-          186, 
-          180, 
-          174, 
-          168, 
-          162, 
-          155, 
-          149, 
-          144, 
-          138, 
-          133, 
-          128, 
-          124, 
-          120, 
-          116, 
-          113, 
-          110, 
-          107, 
-          105, 
-          103, 
-          101, 
-          100, 
-          99, 
-          98, 
-          97, 
-          96, 
-          96, 
-          95
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 44, BGI: -6.81, ISF: 86, Target: 98; Eventual BG 135 >= 98, temp 2.2 >~ req 1.85U/hr", 
+      "snoozeBG": 102, 
+      "timestamp": "2017-01-22T08:40:09.000Z", 
+      "rate": 1.05, 
+      "reason": "COB: 0, Dev: 17, BGI: -6.9, ISF: 86, Target: 98; Eventual BG 102 >= 98, 10m@1.200 = 0.200 > req 0.02+20%. Setting temp basal of 1.05U/hr", 
       "COB": 0, 
-      "eventualBG": 135, 
-      "tick": "+2", 
-      "IOB": 1.38
+      "eventualBG": 102, 
+      "duration": 30, 
+      "tick": -4, 
+      "IOB": 1.397
     }, 
     "iob": {
-      "netbasalinsulin": 3.05, 
-      "timestamp": "2017-01-22T08:29:50.000Z", 
-      "activity": 0.0159, 
-      "basaliob": 1.38, 
-      "hightempinsulin": 3.05, 
+      "netbasalinsulin": 3.2, 
+      "timestamp": "2017-01-22T08:38:08.000Z", 
+      "activity": 0.0161, 
+      "basaliob": 1.397, 
+      "hightempinsulin": 3.2, 
       "bolussnooze": 0, 
-      "iob": 1.38
+      "iob": 1.397
     }, 
     "enacted": {
-      "bg": 206, 
+      "requested": {
+        "duration": 30, 
+        "rate": 1.05, 
+        "temp": "absolute"
+      }, 
+      "bg": 205, 
       "temp": "absolute", 
-      "snoozeBG": 134, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: 38, BGI: -6.68, ISF: 86, Target: 80; Eventual BG 134 >= 80, temp 1.8<2.2U/hr", 
+      "snoozeBG": 102, 
+      "timestamp": "2017-01-22T08:40:34.000Z", 
+      "predBGs": {
+        "IOB": [
+          205, 
+          201, 
+          196, 
+          191, 
+          186, 
+          181, 
+          176, 
+          170, 
+          164, 
+          158, 
+          152, 
+          146, 
+          140, 
+          134, 
+          128, 
+          122, 
+          117, 
+          112, 
+          108, 
+          103, 
+          100, 
+          96, 
+          93, 
+          90, 
+          88, 
+          86, 
+          84, 
+          83, 
+          81, 
+          80, 
+          79, 
+          79, 
+          78, 
+          78, 
+          77
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 17, BGI: -6.9, ISF: 86, Target: 98; Eventual BG 102 >= 98, 10m@1.200 = 0.200 > req 0.02+20%. Setting temp basal of 1.05U/hr", 
       "rate": 2.2, 
       "COB": 0, 
-      "eventualBG": 134, 
-      "timestamp": "2017-01-22T08:19:02.000Z", 
-      "duration": 30, 
-      "tick": "+1", 
-      "IOB": 1.289
+      "eventualBG": 102, 
+      "recieved": false, 
+      "duration": 9, 
+      "tick": -4, 
+      "IOB": 1.397
     }
   }, 
   "mmtune": {
@@ -120,7 +126,7 @@
       [
         "916.660", 
         5, 
-        -81
+        -80
       ], 
       [
         "916.684", 
@@ -128,8 +134,8 @@
         -85
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-01-22T08:29:08.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2017-01-22T08:37:26.000Z", 
     "usedDefault": false
   }
 }
