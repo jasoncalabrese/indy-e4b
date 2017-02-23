@@ -7,106 +7,77 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-02-23T11:56:14.000Z", 
+      "timestamp": "2017-02-23T12:13:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 132.125, 
-    "clock": "2017-02-23T03:56:45-08:00"
+    "reservoir": 132.1, 
+    "clock": "2017-02-23T04:13:36-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 106, 
+      "bg": 100, 
       "temp": "absolute", 
-      "snoozeBG": 100, 
-      "timestamp": "2017-02-23T11:58:07.000Z", 
-      "rate": 0.55, 
-      "reason": "COB: 0, Dev: -8, BGI: -0.58, ISF: 90, Target: 100; Eventual BG 100 > 100 but Min. Delta -1.94 < Exp. Delta -0.6; setting current basal of 0.55 as temp. Setting neutral temp basal of 0.55U/hr", 
-      "COB": 0, 
-      "eventualBG": 100, 
-      "duration": 30, 
-      "tick": -1, 
-      "IOB": -0.027
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.4, 
-      "timestamp": "2017-02-23T11:56:45.000Z", 
-      "activity": 0.0013, 
-      "basaliob": -0.027, 
-      "hightempinsulin": 0.5, 
-      "bolussnooze": 0, 
-      "iob": -0.027
-    }, 
-    "enacted": {
-      "requested": {
-        "duration": 30, 
-        "rate": 0.55, 
-        "temp": "absolute"
-      }, 
-      "bg": 106, 
-      "temp": "absolute", 
-      "snoozeBG": 100, 
-      "timestamp": "2017-02-23T11:58:58.000Z", 
+      "snoozeBG": 110, 
+      "timestamp": "2017-02-23T12:15:00.000Z", 
       "predBGs": {
         "IOB": [
-          106, 
-          104, 
-          102, 
-          101, 
-          99, 
+          100, 
           98, 
           97, 
+          95, 
+          95, 
+          94, 
+          93, 
+          93, 
+          93, 
+          94, 
+          94, 
+          95, 
           96, 
-          96, 
-          96, 
-          96, 
-          96, 
-          97, 
           98, 
           99, 
           100, 
-          101, 
+          102, 
           103, 
           104, 
-          105, 
+          106, 
           107, 
           108, 
           109, 
           110, 
+          110, 
           111, 
           112, 
+          112, 
           113, 
-          114, 
-          115, 
-          115, 
-          116, 
-          116, 
-          117, 
-          117, 
-          118
+          113, 
+          113, 
+          114
         ]
       }, 
-      "reason": "COB: 0, Dev: -8, BGI: -0.58, ISF: 90, Target: 100; Eventual BG 100 > 100 but Min. Delta -1.94 < Exp. Delta -0.6; setting current basal of 0.55 as temp. Setting neutral temp basal of 0.55U/hr", 
-      "rate": 0.1, 
+      "reason": "COB: 0, Dev: -8, BGI: -0.49, ISF: 90, Target: 100; Eventual BG 110 > 100 but Min. Delta -1.89 < Exp. Delta -1, temp 0.55 ~ req 0.55U/hr", 
       "COB": 0, 
-      "eventualBG": 100, 
-      "recieved": false, 
-      "duration": 27, 
+      "eventualBG": 110, 
       "tick": -1, 
-      "IOB": -0.027
+      "IOB": -0.198
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.35, 
+      "timestamp": "2017-02-23T12:13:36.000Z", 
+      "activity": 0.0011, 
+      "basaliob": -0.198, 
+      "hightempinsulin": 0.5, 
+      "bolussnooze": 0, 
+      "iob": -0.198
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.420", 
-        1, 
-        -98
-      ], 
-      [
         "916.540", 
-        4, 
-        -85
+        5, 
+        -79
       ], 
       [
         "916.564", 
@@ -120,37 +91,27 @@
       ], 
       [
         "916.612", 
-        4, 
-        -72
+        5, 
+        -71
       ], 
       [
         "916.636", 
-        5, 
-        -71
+        4, 
+        -76
       ], 
       [
         "916.660", 
         5, 
-        -71
+        -72
       ], 
       [
         "916.684", 
         5, 
-        -76
-      ], 
-      [
-        "916.708", 
-        2, 
-        -79
-      ], 
-      [
-        "916.732", 
-        1, 
-        -91
+        -78
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2017-02-23T11:55:54.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2017-02-23T12:12:44.000Z", 
     "usedDefault": false
   }
 }
